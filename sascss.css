@@ -1,0 +1,84 @@
+. {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: poppins, sans-serif;
+	line-height: 1.6;
+	color: #333;
+}
+
+.navbar {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #2c3e50;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.nav-links {
+	display: flex;
+	list-style: none;
+}
+
+.nav-links li a {
+	color: white;
+	text-decoration: none;
+	margin-left: 20px;
+	transition: 0.5s;
+}
+
+.homee {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: #f4f4f4;
+	text-align: center;
+}
+
+.btn {
+	padding: 10px;
+	background: #e67e22;
+	border: none;
+	color: white;
+	cursor: pointer;
+	transition: 0.5;
+}
+
+.btn:hover {
+	background: #d35400;
+	transform: scale(1.1);
+}
+
+.nav-links li a:hover {
+	color: #e67e22;
+}
+
+.card {
+	border: 1px solid #ddd;
+	padding: 20px;
+	transition: box-shadow 0.5s;
+}
+
+.card:hover {
+	box-shadow: 0 5px 15px;
+}
+
+.sosial-icon {
+	margin: 0 10px;
+	text-decoration: none;
+	color: #2c3e50;
+	font-weight: bold;
+}
+
+.sosial-icon:hover {
+	text-decoration: underline;
+	color: #e67e22;
+}
